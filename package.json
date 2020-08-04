@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build tsconfig.app.json",
+    "clean": "rm -rf dist*",
+    "start": "npm run build && node ./dist/src/main.js",
+    "test": "tsc --project tsconfig.app.json --outDir dist-test && tsc --build tsconfig.test.json && node ./dist-test/src/main.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
+}
