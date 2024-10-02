@@ -3,6 +3,7 @@
     "composite": true,
     "module": "NodeNext",
     "outDir": "dist-test",
+    "rootDir": "src",
     "strict": true,
     "target": "ES2020"
   },
