@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "composite": true,
-    "module": "NodeNext",
+    "module": "Node18",
     "outDir": "dist-test",
     "rootDir": "src",
     "strict": true,
